@@ -1,0 +1,23 @@
+{
+  "name": "ecoleta-backend",
+  "version": "1.0.0",
+  "description": "backend for ecoleta",
+  "main": "index.js",
+  "author": "Lucas Cardoso",
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "dev": "yarn ts-node-dev src/server"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
